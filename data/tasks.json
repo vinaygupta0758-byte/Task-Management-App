@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "id": "u_admin",
+      "name": "Project Admin",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "u_member",
+      "name": "Team Member",
+      "email": "member@example.com",
+      "password": "member123",
+      "role": "member"
+    },
+    {
+      "id": "65b94950-47da-402b-a965-34ea977bab3e",
+      "name": "Vinay",
+      "email": "vinaygupta0758@gmail.com",
+      "password": "123456",
+      "role": "member"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "cfdcdd9e-80b8-4961-971c-baf655ef02d4",
+      "title": "Complete Documentation Process",
+      "description": "Complete the overall documentation for the project",
+      "status": "In Progress",
+      "priority": "Medium",
+      "dueDate": "2026-05-20",
+      "assigneeId": "65b94950-47da-402b-a965-34ea977bab3e",
+      "createdBy": "65b94950-47da-402b-a965-34ea977bab3e",
+      "createdAt": "2026-05-16T07:30:46.790Z",
+      "updatedAt": "2026-05-16T07:30:46.790Z"
+    },
+    {
+      "id": "9a3fb396-f158-4b51-ae64-848f4702897e",
+      "title": "Build Add to Cart button",
+      "description": "Create an add to cart button which places items to cart when the button is clicked",
+      "status": "To Do",
+      "priority": "Medium",
+      "dueDate": "2026-05-22",
+      "assigneeId": "u_member",
+      "createdBy": "u_admin",
+      "createdAt": "2026-05-16T07:26:26.697Z",
+      "updatedAt": "2026-05-16T07:26:26.697Z"
+    },
+    {
+      "id": "t_101",
+      "title": "Design login and registration flow",
+      "description": "Create responsive screens for account access and validation messages.",
+      "status": "In Progress",
+      "priority": "High",
+      "dueDate": "2026-05-18",
+      "assigneeId": "u_admin",
+      "createdBy": "u_admin",
+      "createdAt": "2026-05-16T07:00:00.000Z",
+      "updatedAt": "2026-05-16T07:00:00.000Z"
+    },
+    {
+      "id": "t_102",
+      "title": "Build task CRUD API",
+      "description": "Add endpoints for creating, editing, completing, and deleting tasks.",
+      "status": "To Do",
+      "priority": "Medium",
+      "dueDate": "2026-05-20",
+      "assigneeId": "u_member",
+      "createdBy": "u_admin",
+      "createdAt": "2026-05-16T07:15:00.000Z",
+      "updatedAt": "2026-05-16T07:15:00.000Z"
+    },
+    {
+      "id": "t_103",
+      "title": "Prepare final project documentation",
+      "description": "Write setup steps, feature list, and demo account details for submission.",
+      "status": "Done",
+      "priority": "Low",
+      "dueDate": "2026-05-22",
+      "assigneeId": "u_member",
+      "createdBy": "u_admin",
+      "createdAt": "2026-05-16T07:30:00.000Z",
+      "updatedAt": "2026-05-16T07:30:00.000Z"
+    }
+  ]
+}
